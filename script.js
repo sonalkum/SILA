@@ -1,10 +1,12 @@
 // List of captions and audio files
 const captions = [
-    "The deep rumble of the storm echoes through the sky, & loudness: soft."
+    "The deep rumble of the storm echoes through the sky, & loudness: soft.",
+    "The deep rumble of the storm echoes through the sky, & loudness: very loud.",
 ];
 
 const audioFiles = [
-    "audio/soft_thunder.wav",
+    "audio/soft thundering.wav",
+    "audio/very loud thundering.wav",
 ];
 
 // Function to generate the audio players and captions in a table

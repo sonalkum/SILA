@@ -1,30 +1,32 @@
 // List of captions and audio files
 const captions = [
-    "Here is an audio file of a piano sound.",
-    "This is a sound of ocean waves crashing.",
-    "A short clip of birds chirping in the morning."
+    "The deep rumble of the storm echoes through the sky, & loudness: soft."
 ];
 
 const audioFiles = [
-    "audio/piano.mp3",
-    "audio/ocean-waves.mp3",
-    "audio/birds-chirping.mp3"
+    "audio/soft_thunder.wav",
 ];
 
-// Function to generate table rows for audio players and captions
+// Function to generate the audio players and captions in a table
 function loadAudios() {
-    const audioContainer = document.getElementById('audio-container');
+    const audioContainer = document.getElementById('audio-table-body');
 
     // Loop through all audio files and captions
     for (let i = 0; i < captions.length; i++) {
         // Create table row
-        const tableRow = document.createElement('tr');
+        const row = document.createElement('tr');
 
-        // Create caption column (td)
+        // Create index cell
+        const indexCell = document.createElement('td');
+        indexCell.textContent = i + 1;  // Display index starting from 1
+        row.appendChild(indexCell);
+
+        // Create caption cell
         const captionCell = document.createElement('td');
         captionCell.textContent = captions[i];
+        row.appendChild(captionCell);
 
-        // Create audio column (td)
+        // Create audio cell
         const audioCell = document.createElement('td');
         const audioElement = document.createElement('audio');
         audioElement.controls = true;
@@ -33,13 +35,10 @@ function loadAudios() {
         sourceElement.type = 'audio/mpeg';
         audioElement.appendChild(sourceElement);
         audioCell.appendChild(audioElement);
+        row.appendChild(audioCell);
 
-        // Append both cells to the row
-        tableRow.appendChild(captionCell);
-        tableRow.appendChild(audioCell);
-
-        // Append row to the table body
-        audioContainer.appendChild(tableRow);
+        // Append the row to the table body
+        audioContainer.appendChild(row);
     }
 }
 

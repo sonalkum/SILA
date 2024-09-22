@@ -1,12 +1,23 @@
 // List of captions and audio files
 const captions = [
+    "Explosion, & loudness: very loud",
+    "Explosion, & loudness: very soft",
     "The deep rumble of the storm echoes through the sky, & loudness: soft.",
     "The deep rumble of the storm echoes through the sky, & loudness: very loud.",
+    "Futuristic sci-fi swish and whoosh, swish & fade: out",
+    "Big metal object hitting a large metal tank with a , deep sound & pitch: low, & duration: 5 seconds & reverb: slightly wet",
+    "Consecutive footsteps in dress shoes, echoing on a hard floor surface & fade: in & noise: silent background & reverb: wet"
 ];
 
 const audioFiles = [
+    "audio/very loud explosion (1).wav",
+    "audio/very soft explosion (1).wav",
     "audio/soft thundering.wav",
     "audio/very loud thundering.wav",
+    "audio/8cb6043ea479800c2345.wav",
+    "audio/3f8d0a8bc079047bb675.wav",
+    "audio/867db3e602bfccb185e5.wav",
+    
 ];
 
 // Function to generate the audio players and captions in a table

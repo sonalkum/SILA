@@ -6,7 +6,7 @@ const captions = [
     "The deep rumble of the storm echoes through the sky, & loudness: very loud.",
     "Futuristic sci-fi swish and whoosh, swish & fade: out",
     "Big metal object hitting a large metal tank with a , deep sound & pitch: low, & duration: 5 seconds & reverb: slightly wet",
-    "Consecutive footsteps in dress shoes, echoing on a hard floor surface & fade: in & noise: silent background & reverb: wet"
+    "Consecutive footsteps in dress shoes, echoing on a hard floor surface & fade: in & noise: silent background & reverb: wet",
     "A dog barking nearby, & reverb: dry.",
     "A dog barking nearby, & reverb: wet.",
     "Gunshots being fired, & reverb: dry.",

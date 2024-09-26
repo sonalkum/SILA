@@ -7,6 +7,14 @@ const captions = [
     "Futuristic sci-fi swish and whoosh, swish & fade: out",
     "Big metal object hitting a large metal tank with a , deep sound & pitch: low, & duration: 5 seconds & reverb: slightly wet",
     "Consecutive footsteps in dress shoes, echoing on a hard floor surface & fade: in & noise: silent background & reverb: wet"
+    "A dog barking nearby, & reverb: dry.",
+    "A dog barking nearby, & reverb: wet.",
+    "Gunshots being fired, & reverb: dry.",
+    "Gunshots being fired, & reverb: wet.",
+    "Footsteps on a wooden floor, & reverb: dry.",
+    "Footsteps on a wooden floor, & reverb: very wet.",
+    "A joyful man giggling, & reverb: very wet.",
+    "Continuos pouring of rain, & reverb: wet."
 ];
 
 const audioFiles = [
@@ -17,7 +25,14 @@ const audioFiles = [
     "audio/8cb6043ea479800c2345.wav",
     "audio/3f8d0a8bc079047bb675.wav",
     "audio/867db3e602bfccb185e5.wav",
-    
+    "audio/dog bark, dry.wav",
+    "audio/dog bark, wet.wav",
+    "audio/gun shots, dry.wav",
+    "audio/gunshots, wet.wav",
+    "audio/footsteps, dry.wav",
+    "audio/footsteps, wet.wav",  
+    "audio/giggle wet.wav",  
+    "audio/rain wet.wav",
 ];
 
 // Function to generate the audio players and captions in a table

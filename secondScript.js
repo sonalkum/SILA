@@ -2,15 +2,64 @@
 const newData = [
     {
         type: 'baseline',
-        caption: "Whispering winds through the trees, & pitch: high.",
-        audioFile: "audio/high_pitch_wind.wav"
+        caption: "Dog barking, & reverb: dry.",
+        audioFile: "audio/dog_baseline_dry.wav"
     },
     {
         type: 'sila',
-        caption: "Whispering winds through the trees, & pitch: low.",
-        audioFile: "audio/low_pitch_wind.wav"
+        caption: "Dog barking, & reverb: dry.",
+        audioFile: "audio/dog_barking_dry.wav"
     },
-    // Add more entries as needed
+    {
+        type: 'baseline',
+        caption: "Dog barking, & reverb: wet.",
+        audioFile: "audio/dog_baseline_wet.wav"
+    },
+    {
+        type: 'sila',
+        caption: "Dog barking, & reverb: wet.",
+        audioFile: "audio/dog_barking_wet.wav"
+    },
+    {
+        type: 'baseline',
+        caption: "Gun shot, & reverb: dry.",
+        audioFile: "audio/gun_shot_baseline_dry.wav"
+    },
+    {
+        type: 'sila',
+        caption: "Gun shot, & reverb: dry.",
+        audioFile: "audio/gun_shot_dry.wav"
+    },
+    {
+        type: 'baseline',
+        caption: "Gun shot, & reverb: wet.",
+        audioFile: "audio/gun_shot_baseline_dry.wav"
+    },
+    {
+        type: 'sila',
+        caption: "Gun shot, & reverb: wet.",
+        audioFile: "audio/gun_shot_wet.wav"
+    },
+    {
+        type: 'baseline',
+        caption: "Cat meow, & reverb: dry.",
+        audioFile: "audio/gun_shot_baseline_dry.wav"
+    },
+    {
+        type: 'sila',
+        caption:  "Cat meow, & reverb: dry.",
+        audioFile: "audio/cat_meow_dry.wav"
+    },
+    {
+        type: 'baseline',
+        caption: "Cat meow, & reverb: very wet.",
+        audioFile: "audio/gun_shot_baseline_dry.wav"
+    },
+    {
+        type: 'sila',
+        caption:  "Cat meow, & reverb: very wet.",
+        audioFile: "audio/cat_meow_very_wet.wav"
+    },
 ];
 
 // Function to generate the new audio players and captions
@@ -55,6 +104,7 @@ function loadNewAudios() {
 }
 
 // Ensure both scripts' functions are called when the page loads
+// window.onload = loadNewAudios;
 window.onload = function() {
     loadAudios();     // Function from script.js
     loadNewAudios();  // Function from secondScript.js

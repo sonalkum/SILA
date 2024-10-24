@@ -1,20 +1,32 @@
 // Data for the second table
-const newCaptions = [
-    "Whispering winds through the trees, & pitch: high.",
-    "Whispering winds through the trees, & pitch: low.",
-];
-
-const newAudioFiles = [
-    "audio/high_pitch_wind.wav",
-    "audio/low_pitch_wind.wav",
+const newData = [
+    {
+        type: 'baseline',
+        caption: "Whispering winds through the trees, & pitch: high.",
+        audioFile: "audio/high_pitch_wind.wav"
+    },
+    {
+        type: 'sila',
+        caption: "Whispering winds through the trees, & pitch: low.",
+        audioFile: "audio/low_pitch_wind.wav"
+    },
+    // Add more entries as needed
 ];
 
 // Function to generate the new audio players and captions
 function loadNewAudios() {
     const newAudioContainer = document.getElementById('new-audio-table-body');
 
-    for (let i = 0; i < newCaptions.length; i++) {
+    for (let i = 0; i < newData.length; i++) {
+        const rowData = newData[i];
         const row = document.createElement('tr');
+
+        // Apply class based on the type
+        if (rowData.type === 'baseline') {
+            row.classList.add('baseline-row');
+        } else if (rowData.type === 'sila') {
+            row.classList.add('sila-row');
+        }
 
         // Index Cell
         const indexCell = document.createElement('td');
@@ -23,7 +35,7 @@ function loadNewAudios() {
 
         // Caption Cell
         const captionCell = document.createElement('td');
-        captionCell.textContent = newCaptions[i];
+        captionCell.textContent = rowData.caption;
         row.appendChild(captionCell);
 
         // Audio Cell
@@ -31,7 +43,7 @@ function loadNewAudios() {
         const audioElement = document.createElement('audio');
         audioElement.controls = true;
         const sourceElement = document.createElement('source');
-        sourceElement.src = newAudioFiles[i];
+        sourceElement.src = rowData.audioFile;
         sourceElement.type = 'audio/mpeg';
         audioElement.appendChild(sourceElement);
         audioCell.appendChild(audioElement);

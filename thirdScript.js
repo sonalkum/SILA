@@ -1,5 +1,84 @@
 // Data for the second table
-const noiseData = [
+const noiseData = [{
+    type: 'baseline',
+    caption: "Metal utensils clanking, & noise: silent",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Metal utensils clanking, & noise: silent",
+    audioFile: "audio/metal_clanking_silent.wav"
+},
+{
+    type: 'baseline',
+    caption: "Metal utensils clanking, & noise: noisy",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Metal utensils clanking, & noise: noisy",
+    audioFile: "audio/metal_clanking_noisy.wav"
+},
+{
+    type: 'baseline',
+    caption: "Futuristic sci-fi swish, & noise: silent",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Futuristic sci-fi swish, & noise: silent",
+    audioFile: "audio/scifi_swish_silent.wav"
+},
+{
+    type: 'baseline',
+    caption: "Futuristic sci-fi swish, & noise: noisy",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Futuristic sci-fi swish, & noise: noisy",
+    audioFile: "audio/scifi_swish_noisy.wav"
+},
+{
+    type: 'baseline',
+    caption: "Glass explosion, & noise: silent",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Glass explosion, & noise: silent",
+    audioFile: "audio/glass_explosion_silent.wav"
+},
+{
+    type: 'baseline',
+    caption: "Glass explosion, & noise: noisy",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Glass explosion, & noise: noisy",
+    audioFile: "audio/glass_explosion_noisy.wav"
+},
+{
+    type: 'baseline',
+    caption: "whoosh, & noise: silent",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption:"whoosh, & noise: silent",
+    audioFile: "audio/whoosh_silent.wav"
+},
+{
+    type: 'baseline',
+    caption: "whoosh, & noise: noisy",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption:"whoosh, & noise: noisy",
+    audioFile: "audio/whoosh_noisy.wav"
+},
 ];
 
 // Function to generate the new audio players and captions

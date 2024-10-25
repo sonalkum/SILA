@@ -1,5 +1,44 @@
 // Data for the second table
-const pitchData = [
+const pitchData = [{
+    type: 'baseline',
+    caption: "Car honk, & pitch: low",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Car honk, & pitch: low",
+    audioFile: "audio/car_honk_low_pitch.wav"
+},
+{
+    type: 'baseline',
+    caption: "Car honk, & pitch: high",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Car honk, & pitch: high",
+    audioFile: "audio/car_honk_high_pitch.wav"
+},
+{
+    type: 'baseline',
+    caption: "Gun shot, & pitch: low",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Gun shot, & pitch: low",
+    audioFile: "audio/gunshot_low_pitch.wav"
+},
+{
+    type: 'baseline',
+    caption: "Gun shot, & pitch: high",
+    audioFile: "audio/dog_baseline_dry.wav"
+},
+{
+    type: 'sila',
+    caption: "Gun shot, & pitch: high",
+    audioFile: "audio/gunshot_high_pitch.wav"
+},
 ];
 
 // Function to generate the new audio players and captions

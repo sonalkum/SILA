@@ -102,7 +102,7 @@
 </div>
 
 <div class="container">
-    <h1>Noise Audio Example</h1>
+    <h1>Comparison of Baseline (in red) and SILA (in Green) on "Noise"</h1>
 
     <table class="table table-striped">
         <thead>
@@ -118,10 +118,28 @@
     </table>
 </div>
 
+<div class="container">
+    <h1>Comparison of Baseline (in red) and SILA (in Green) on "Pitch"</h1>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Text Prompt</th>
+                <th>Generated Audio</th>
+            </tr>
+        </thead>
+        <tbody id="pitch-audio-table-body">
+            <!-- Rows will be inserted dynamically by secondScript.js -->
+        </tbody>
+    </table>
+</div>
+
 <!-- Include Your JavaScript Files -->
 <script src="script.js"></script>
 <script src="secondScript.js"></script>
 <script src="thirdScript.js"></script>
+<script src="fourthScript.js"></script>
 
 </body>
 </html>

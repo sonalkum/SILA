@@ -32,7 +32,7 @@ const audioFiles = [
     "audio/footsteps, dry.wav",
     "audio/footsteps, wet.wav",  
     "audio/giggle wet.wav",  
-    "audio/rain wet.wav",
+    "audio/rain, wet.wav",
 ];
 
 // Function to generate the audio players and captions in a table

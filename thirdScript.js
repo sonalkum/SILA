@@ -2,7 +2,7 @@
 const noiseData = [{
     type: 'baseline',
     caption: "Metal utensils clanking, & noise: silent",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/metal_clank_silent_baseline.wav"
 },
 {
     type: 'sila',
@@ -12,7 +12,7 @@ const noiseData = [{
 {
     type: 'baseline',
     caption: "Metal utensils clanking, & noise: noisy",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/metal_clank_noisy_baseline.wav"
 },
 {
     type: 'sila',
@@ -22,7 +22,7 @@ const noiseData = [{
 {
     type: 'baseline',
     caption: "Futuristic sci-fi swish, & noise: silent",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/futuristic_swoosh_baseline_noisy.wav"
 },
 {
     type: 'sila',
@@ -32,7 +32,7 @@ const noiseData = [{
 {
     type: 'baseline',
     caption: "Futuristic sci-fi swish, & noise: noisy",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/futuristic_swoosh_baseline_noisy.wav"
 },
 {
     type: 'sila',
@@ -42,7 +42,7 @@ const noiseData = [{
 {
     type: 'baseline',
     caption: "Glass explosion, & noise: silent",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/glass_explosion_baseline_silent.wav"
 },
 {
     type: 'sila',
@@ -52,7 +52,7 @@ const noiseData = [{
 {
     type: 'baseline',
     caption: "Glass explosion, & noise: noisy",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/glass_explosion_baseline_noisy.wav"
 },
 {
     type: 'sila',
@@ -62,7 +62,7 @@ const noiseData = [{
 {
     type: 'baseline',
     caption: "whoosh, & noise: silent",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/whoosh_baseline_silent.wav"
 },
 {
     type: 'sila',
@@ -72,7 +72,7 @@ const noiseData = [{
 {
     type: 'baseline',
     caption: "whoosh, & noise: noisy",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/whoosh_baseline_silent_noisy.wav"
 },
 {
     type: 'sila',

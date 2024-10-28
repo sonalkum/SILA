@@ -22,7 +22,7 @@ const pitchData = [{
 {
     type: 'baseline',
     caption: "Gun shot, & pitch: low",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/gun_shot_baeline_low_pitch.wav"
 },
 {
     type: 'sila',
@@ -32,7 +32,7 @@ const pitchData = [{
 {
     type: 'baseline',
     caption: "Gun shot, & pitch: high",
-    audioFile: "audio/dog_baseline_dry.wav"
+    audioFile: "audio/gunshot_baseline_high_pitch.wav"
 },
 {
     type: 'sila',

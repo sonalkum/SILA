@@ -1,5 +1,65 @@
 // Data for the second table
-const durationData = [
+// Data for the second table
+const durationData = [{
+    type: 'baseline',
+    caption: "Flowing water stream, & duration: 3 seconds",
+    audioFile: "audio/water_stream_baseline_3secs.wav"
+},
+{
+    type: 'sila',
+    caption: "Flowing water stream, & duration: 3 seconds",
+    audioFile: "audio/water_stream_3secs.wav"
+},
+{
+    type: 'baseline',
+    caption: "Flowing water stream, & duration: 5 seconds",
+    audioFile: "audio/water_stream_baseline_5secs.wav"
+},
+{
+    type: 'sila',
+    caption: "Flowing water stream, & duration: 5 seconds",
+    audioFile: "audio/water_stream_5secs.wav"
+},
+{
+    type: 'baseline',
+    caption: "Car honk, & duration: 3 seconds",
+    audioFile: "audio/car_honk_3secs_baseline.wav"
+},
+{
+    type: 'sila',
+    caption: "Car honk, & duration: 3 seconds",
+    audioFile: "audio/car_honk_3secs.wav"
+},
+{
+    type: 'baseline',
+    caption: "Car honk, & duration: 5 seconds",
+    audioFile: "audio/car_honk_5secs_baseline.wav"
+},
+{
+    type: 'sila',
+    caption: "Car honk, & duration: 5 seconds",
+    audioFile: "audio/car_honk_5secs.wav"
+},
+{
+    type: 'baseline',
+    caption: "Baby crying, & duration: 3 seconds",
+    audioFile: "audio/baby_cry_3secs_baseline.wav"
+},
+{
+    type: 'sila',
+    caption: "Baby crying, & duration: 3 seconds",
+    audioFile: "audio/baby_cry_3secs.wav"
+},
+{
+    type: 'baseline',
+    caption: "Baby crying, & duration: 5 seconds",
+    audioFile: "audio/baby_cry_5secs_baseline.wav"
+},
+{
+    type: 'sila',
+    caption: "Baby crying, & duration: 5 seconds",
+    audioFile: "audio/dog_barking_5secs.wav"
+},
 ];
 
 // Function to generate the new audio players and captions

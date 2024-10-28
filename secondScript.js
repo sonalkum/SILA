@@ -33,7 +33,7 @@ const newData = [
     {
         type: 'baseline',
         caption: "Gun shot, & reverb: wet.",
-        audioFile: "audio/gun_shot_baseline_dry.wav"
+        audioFile: "audio/gunshot_baseline_wet.wav"
     },
     {
         type: 'sila',
@@ -43,7 +43,7 @@ const newData = [
     {
         type: 'baseline',
         caption: "Cat meow, & reverb: dry.",
-        audioFile: "audio/gun_shot_baseline_dry.wav"
+        audioFile: "audio/cat_meow_baseline_dry.wav"
     },
     {
         type: 'sila',
@@ -53,7 +53,7 @@ const newData = [
     {
         type: 'baseline',
         caption: "Cat meow, & reverb: very wet.",
-        audioFile: "audio/gun_shot_baseline_dry.wav"
+        audioFile: "audio/cat_meow_baseline_wet.wav"
     },
     {
         type: 'sila',
